@@ -140,6 +140,7 @@ button:focus {
       display: flex; } }
 
 .help--left {
+  margin-top: auto;
   margin-left: 0px; }
 
 .help--show {
@@ -1260,8 +1261,7 @@ button.swiper-pagination-bullet {
   display: flex;
   flex-direction: column;
   align-content: flex-end;
-  margin-top: 57px;
-  margin-bottom: auto; }
+  margin-top: 57px; }
   .hidden_nav__item {
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -1295,14 +1295,6 @@ button.swiper-pagination-bullet {
       border-radius: 20%;
       position: absolute;
       left: -52px; }
-
-.hidden_help {
-  margin-top: auto;
-  display: flex; }
-  .hidden_help__item {
-    margin-right: 16px; }
-    .hidden_help__item:last-child {
-      margin-right: 0px; }
 
 .hidden_info {
   margin-top: 16px;
