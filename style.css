@@ -51,9 +51,8 @@ button:focus {
 
 .header {
   margin: 0 auto;
-  padding: 24px 16px 24px 16px;
-  z-index: 20;
-  position: relative; }
+  padding: 24px 0px 24px 0px;
+  z-index: 20; }
   .header::before {
     content: "";
     width: 100%;
@@ -106,9 +105,6 @@ button:focus {
   @media (min-width: 500px) {
     .header__request {
       margin-left: 40px; } }
-  @media (min-width: 709px) {
-    .header {
-      padding-left: 24px; } }
 
 @media (min-width: 1440px) {
   .header {
@@ -1236,8 +1232,8 @@ button.swiper-pagination-bullet {
   display: flex; }
 
 .hidden_header__byrger {
-  width: 40px;
-  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   position: relative; }
 
 .hidden_header__logo {
@@ -1245,7 +1241,9 @@ button.swiper-pagination-bullet {
   margin-top: -6px; }
 
 .hidden_header__search {
-  margin-left: 78px; }
+  margin-left: 78px;
+  min-width: 40px;
+  min-height: 40px; }
 
 @media (min-width: 1440px) {
   .hidden_header__byrger {
