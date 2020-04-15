@@ -1224,6 +1224,10 @@ button.swiper-pagination-bullet {
 .left-block {
   background-color: #fff; }
 
+@media (min-width: 1440px) {
+  .hidden {
+    position: static; } }
+
 @media (max-width: 1440px) {
   .left-block {
     display: none;
