@@ -1207,6 +1207,8 @@ button.swiper-pagination-bullet {
 
 .hidden {
   padding: 24px 24px 32px 24px;
+  position: absolute;
+  left: 0;
   max-width: 320px;
   height: 100vh;
   display: flex;
