@@ -540,8 +540,6 @@ main {
   flex-direction: column;
   max-width: 512px;
   position: relative;
-  height: 100vh;
-  overflow: auto;
   position: absolute;
   z-index: 300;
   right: 0;
@@ -553,7 +551,9 @@ main {
     border-left: 1px solid #D9FFF5;
     background-color: #fff;
     padding: 0px 32px 0px 30px;
-    margin-left: 62px; }
+    margin-left: 62px;
+    height: 100vh;
+    overflow: auto; }
   .feedback__btn-close {
     margin-left: 4px;
     margin-top: 40px;
